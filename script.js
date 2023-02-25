@@ -197,3 +197,63 @@ masterplay2.addEventListener('click', ()=>{
         audioelement2.pause();
     }
 })
+
+//10 song
+
+console.log("BTS Songs");
+let songIndex10 = 0;
+let audioelement10 = new Audio('Music/Tujhe.mp3');
+let masterplay10 = document.getElementById('masterplay10');
+let songs10 = [
+    {songName: "Dreamers", filePath: "Music/Tujhe.mp3"},
+]
+
+//play/pause
+masterplay10.addEventListener('click', ()=>{
+    if(audioelement10.paused || audioelement10.currentTime<=0){
+        audioelement10.play();
+    }
+    else{
+        audioelement10.pause();
+    }
+})
+
+//11 song
+
+console.log("BTS Songs");
+let songIndex11 = 0;
+let audioelement11 = new Audio('Music/laila.mp3');
+let masterplay11 = document.getElementById('masterplay11');
+let songs11 = [
+    {songName: "Dreamers", filePath: "Music/laila.mp3"},
+]
+
+//play/pause
+masterplay11.addEventListener('click', ()=>{
+    if(audioelement11.paused || audioelement11.currentTime<=0){
+        audioelement11.play();
+    }
+    else{
+        audioelement11.pause();
+    }
+})
+
+//12 song
+
+console.log("BTS Songs");
+let songIndex12 = 0;
+let audioelement12 = new Audio('Music/Phir.mp3');
+let masterplay12 = document.getElementById('masterplay12');
+let songs12 = [
+    {songName: "Dreamers", filePath: "Music/Phir.mp3"},
+]
+
+//play/pause
+masterplay12.addEventListener('click', ()=>{
+    if(audioelement12.paused || audioelement12.currentTime<=0){
+        audioelement12.play();
+    }
+    else{
+        audioelement12.pause();
+    }
+})
