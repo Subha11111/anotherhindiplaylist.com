@@ -97,6 +97,37 @@ button[type="submit"]:hover {
   box-shadow: 0 1px 15px rgba(66, 66, 66, 0.521);
 }
 
+.contact-form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 310px;
+  width: 370px;
+  margin-top: 50px;
+  box-shadow: 0 1px 10px rgba(83, 83, 83, 0.521);
+  transition: ease-out 0.3s;
+}
+
+.contact-form1:hover {
+  box-shadow: 0 1px 15px rgba(66, 66, 66, 0.521);
+}
+
+.contact-form1 ul {
+  list-style-type: none;
+}
+
+.contact-form1 ul li {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .contact-form h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -130,6 +161,7 @@ button[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  padding: 30px;
 }
 
 .confirmation-page h2 {
@@ -212,5 +244,17 @@ button[type="submit"]:hover {
 
   a {
     text-decoration: none;
+  }
+
+  .contact-form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+    width: 300px;
+    margin-top: 50px;
+    box-shadow: 0 1px 10px rgba(83, 83, 83, 0.521);
+    transition: ease-out 0.3s;
   }
 }
