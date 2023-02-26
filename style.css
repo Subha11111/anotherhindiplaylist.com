@@ -311,4 +311,8 @@ footer {
     padding: 50px;
     color: rgba(27, 27, 27, 0.822);
   }
+  
+  footer p {
+    font-size: 30px;
+  }
 }
