@@ -244,20 +244,24 @@ footer {
   transition: ease-out 0.3s;
 }
 
-@media screen and (max-width:600px) {
-  nav ul li {
-    font-size: 12px;
-    letter-spacing: 0.8px;
+@media screen and (max-width: 1000px) {
+  nav {
+    height: 100px;
+  }
+
+  .a1 {
+    font-size: 30px;
     margin-right: 8px;
   }
 
   .product-card {
     display: block;
-    width: 300px;
+    width: 600px;
+    height: 610px;
   }
 
   .product-card img {
-    height: 200px;
+    height: 430px;
   }
 
   nav a {
@@ -273,7 +277,25 @@ footer {
   }
 
   .btn1 {
+    width: 350px;
+    font-size: 30px;
+  }
+
+  .btn {
     width: 150px;
-    font-size: 14px;
+    height: 60px;
+    font-size: 30px;
+  }
+
+  .hero h1{
+    font-size: 70px;
+    padding: 50px;
+    color: rgba(27, 27, 27, 0.822);
+  }
+
+  .hero p{
+    font-size: 60px;
+    padding: 50px;
+    color: rgba(27, 27, 27, 0.822);
   }
 }
