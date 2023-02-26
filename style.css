@@ -95,6 +95,7 @@ header {
 }
 
 .logo img {
+  border-radius: 1000px;
   max-height: 50px;
 }
 
@@ -279,7 +280,7 @@ footer {
   }
 
   .product-card .price{
-    font-size: 25px;
+    font-size: 20px;
   }
 
   nav a {
@@ -290,8 +291,8 @@ footer {
   }
 
   .im {
-    width: 30px;
-    margin-right: 10px;
+    width: 60px;
+    margin-right: 20px;
   }
 
   .btn {
@@ -311,8 +312,7 @@ footer {
     padding: 50px;
     color: rgba(27, 27, 27, 0.822);
   }
-  
   footer p {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
