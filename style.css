@@ -278,7 +278,7 @@ footer {
     font-size: 28px;
   }
 
-  .price{
+  .product-card .price{
     font-size: 25px;
   }
 
@@ -313,6 +313,6 @@ footer {
   }
   
   footer p {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
