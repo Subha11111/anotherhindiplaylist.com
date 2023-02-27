@@ -246,7 +246,7 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
-  nav {
+    nav {
     height: 100px;
   }
 
@@ -258,7 +258,7 @@ footer {
   .product-card {
     display: block;
     width: 620px;
-    height: 630px;
+    height: 640px;
   }
 
   .btn1 {
@@ -277,6 +277,9 @@ footer {
 
   .product-card h3{
     font-size: 28px;
+  }
+  .product-card .price {
+    font-size: 25px;
   }
 
   nav a {
@@ -309,6 +312,6 @@ footer {
     color: rgba(27, 27, 27, 0.822);
   }
   footer p {
-    font-size: 11px;
+    font-size: 9px;
   }
 }
