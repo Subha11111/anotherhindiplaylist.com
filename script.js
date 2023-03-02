@@ -257,3 +257,128 @@ masterplay12.addEventListener('click', ()=>{
         audioelement12.pause();
     }
 })
+
+//13 song
+
+console.log("BTS Songs");
+let songIndex13 = 0;
+let audioelement13 = new Audio('Music/tumse.mp3');
+let masterplay13 = document.getElementById('masterplay13');
+let songs13 = [
+    {songName: "Dreamers", filePath: "Music/tumse.mp3"},
+]
+
+//play/pause
+masterplay13.addEventListener('click', ()=>{
+    if(audioelement13.paused || audioelement13.currentTime<=0){
+        audioelement13.play();
+    }
+    else{
+        audioelement13.pause();
+    }
+})
+
+//13 song
+
+
+console.log("BTS Songs");
+let songIndex14 = 0;
+let audioelement14 = new Audio('Music/naja.mp3');
+let masterplay14 = document.getElementById('masterplay14');
+let songs14 = [
+    {songName: "Dreamers", filePath: "Music/naja.mp3"},
+]
+
+//play/pause
+masterplay14.addEventListener('click', ()=>{
+    if(audioelement14.paused || audioelement14.currentTime<=0){
+        audioelement14.play();
+    }
+    else{
+        audioelement14.pause();
+    }
+})
+
+//15 song
+
+
+console.log("BTS Songs");
+let songIndex15 = 0;
+let audioelement15 = new Audio('Music/bolna.mp3');
+let masterplay15 = document.getElementById('masterplay15');
+let songs15 = [
+    {songName: "Dreamers", filePath: "Music/bolna.mp3"},
+]
+
+//play/pause
+masterplay15.addEventListener('click', ()=>{
+    if(audioelement15.paused || audioelement15.currentTime<=0){
+        audioelement15.play();
+    }
+    else{
+        audioelement15.pause();
+    }
+})
+
+//15 song
+
+
+console.log("BTS Songs");
+let songIndex16 = 0;
+let audioelement16 = new Audio('Music/Zaalima - Lyrical  Raees  Shah Rukh Khan & Mahira Khan  Arijit Singh & Harshdeep K  JAM8-Pritam.mp3');
+let masterplay16 = document.getElementById('masterplay16');
+let songs16 = [
+    {songName: "Dreamers", filePath: "Music/Zaalima - Lyrical  Raees  Shah Rukh Khan & Mahira Khan  Arijit Singh & Harshdeep K  JAM8-Pritam.mp3"},
+]
+
+//play/pause
+masterplay16.addEventListener('click', ()=>{
+    if(audioelement16.paused || audioelement16.currentTime<=0){
+        audioelement16.play();
+    }
+    else{
+        audioelement16.pause();
+    }
+})
+
+//17 song
+
+
+console.log("BTS Songs");
+let songIndex17 = 0;
+let audioelement17 = new Audio('Music/Heartless_ Main Dhoondne Ko Zamaane Mein Full Song  Arijit Singh  Adhyayan Suman, Ariana Ayam.mp3');
+let masterplay17 = document.getElementById('masterplay17');
+let songs17 = [
+    {songName: "Dreamers", filePath: "Music/Heartless_ Main Dhoondne Ko Zamaane Mein Full Song  Arijit Singh  Adhyayan Suman, Ariana Ayam.mp3"},
+]
+
+//play/pause
+masterplay17.addEventListener('click', ()=>{
+    if(audioelement17.paused || audioelement17.currentTime<=0){
+        audioelement17.play();
+    }
+    else{
+        audioelement17.pause();
+    }
+})
+
+//18 song
+
+
+console.log("BTS Songs");
+let songIndex18 = 0;
+let audioelement18 = new Audio('Music/Kya Mujhe Pyar Lyrical Video Song  Woh Lamhe  Pritam  K.K.  Shiny Ahuja, Kangna Ranaut.mp3');
+let masterplay18 = document.getElementById('masterplay18');
+let songs18 = [
+    {songName: "Dreamers", filePath: "Music/Kya Mujhe Pyar Lyrical Video Song  Woh Lamhe  Pritam  K.K.  Shiny Ahuja, Kangna Ranaut.mp3"},
+]
+
+//play/pause
+masterplay18.addEventListener('click', ()=>{
+    if(audioelement18.paused || audioelement18.currentTime<=0){
+        audioelement18.play();
+    }
+    else{
+        audioelement18.pause();
+    }
+})
