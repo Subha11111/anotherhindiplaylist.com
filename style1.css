@@ -258,3 +258,14 @@ h2 {
     transition: ease-out 0.3s;
   }
 }
+
+.close {
+  position: absolute;
+  top: 5;
+  right: 14px;
+  font-family: arial;
+  font-size: 40px;
+  transform: rotate(45deg);
+  color: black;
+  cursor: pointer;
+}

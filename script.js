@@ -382,3 +382,135 @@ masterplay18.addEventListener('click', ()=>{
         audioelement18.pause();
     }
 })
+
+
+//19 song
+
+
+console.log("BTS Songs");
+let songIndex19 = 0;
+let audioelement19 = new Audio('Music/Chaand Baaliyan  Aditya A.  Trending Song 2022  Official Video.mp3');
+let masterplay19 = document.getElementById('masterplay19');
+let songs19 = [
+    {songName: "Dreamers", filePath: "Music/Chaand Baaliyan  Aditya A.  Trending Song 2022  Official Video.mp3"},
+]
+
+//play/pause
+masterplay19.addEventListener('click', ()=>{
+    if(audioelement19.paused || audioelement19.currentTime<=0){
+        audioelement19.play();
+    }
+    else{
+        audioelement19.pause();
+    }
+})
+
+
+//20 song
+
+
+console.log("BTS Songs");
+let songIndex20 = 0;
+let audioelement20 = new Audio('Music/Ik Vaari Aa Full Song  Raabta  Sushant Singh Rajput & Kriti Sanon  Pritam Arijit Singh Amitabh B.mp3');
+let masterplay20 = document.getElementById('masterplay20');
+let songs20 = [
+    {songName: "Dreamers", filePath: "Music/Ik Vaari Aa Full Song  Raabta  Sushant Singh Rajput & Kriti Sanon  Pritam Arijit Singh Amitabh B.mp3"},
+]
+
+//play/pause
+masterplay20.addEventListener('click', ()=>{
+    if(audioelement20.paused || audioelement20.currentTime<=0){
+        audioelement20.play();
+    }
+    else{
+        audioelement20.pause();
+    }
+})
+
+
+//21 song
+
+
+console.log("BTS Songs");
+let songIndex21 = 0;
+let audioelement21 = new Audio('Music/Tu Chahiye Full AUDIO Song  Atif Aslam Pritam  Bajrangi Bhaijaan  Salman Khan, Kareena Kapoor.mp3');
+let masterplay21 = document.getElementById('masterplay21');
+let songs21 = [
+    {songName: "Dreamers", filePath: "Music/Tu Chahiye Full AUDIO Song  Atif Aslam Pritam  Bajrangi Bhaijaan  Salman Khan, Kareena Kapoor.mp3"},
+]
+
+//play/pause
+masterplay21.addEventListener('click', ()=>{
+    if(audioelement21.paused || audioelement21.currentTime<=0){
+        audioelement21.play();
+    }
+    else{
+        audioelement21.pause();
+    }
+})
+
+
+//22 song
+
+
+console.log("BTS Songs");
+let songIndex22 = 0;
+let audioelement22 = new Audio('Music/LYRICAL_ Main Agar Kahoon  Om Shanti Om  Shahrukh Khan,Deepika Padukone  Sonu Nigam,Shreya Ghosal.mp3');
+let masterplay22 = document.getElementById('masterplay22');
+let songs22 = [
+    {songName: "Dreamers", filePath: "Music/LYRICAL_ Main Agar Kahoon  Om Shanti Om  Shahrukh Khan,Deepika Padukone  Sonu Nigam,Shreya Ghosal.mp3"},
+]
+
+//play/pause
+masterplay22.addEventListener('click', ()=>{
+    if(audioelement22.paused || audioelement22.currentTime<=0){
+        audioelement22.play();
+    }
+    else{
+        audioelement22.pause();
+    }
+})
+
+
+//23 song
+
+
+console.log("BTS Songs");
+let songIndex23 = 0;
+let audioelement23 = new Audio('Music/Moh Moh Ke Dhaage  Lyrical Song  Dum Laga Ke Haisha  Ayushmann, Bhumi  Monali  Anu Malik, Varun.mp3');
+let masterplay23 = document.getElementById('masterplay23');
+let songs23 = [
+    {songName: "Dreamers", filePath: "Music/Moh Moh Ke Dhaage  Lyrical Song  Dum Laga Ke Haisha  Ayushmann, Bhumi  Monali  Anu Malik, Varun.mp3"},
+]
+
+//play/pause
+masterplay23.addEventListener('click', ()=>{
+    if(audioelement23.paused || audioelement23.currentTime<=0){
+        audioelement23.play();
+    }
+    else{
+        audioelement23.pause();
+    }
+})
+
+
+//24 song
+
+
+console.log("BTS Songs");
+let songIndex24 = 0;
+let audioelement24 = new Audio('Music/Bekhayali Full Song  Kabir Singh  Shahid K,Kiara ASandeep Reddy Vanga  Sachet-Parampara  Irshad.mp3');
+let masterplay24 = document.getElementById('masterplay24');
+let songs24 = [
+    {songName: "Dreamers", filePath: "Music/Bekhayali Full Song  Kabir Singh  Shahid K,Kiara ASandeep Reddy Vanga  Sachet-Parampara  Irshad.mp3"},
+]
+
+//play/pause
+masterplay24.addEventListener('click', ()=>{
+    if(audioelement24.paused || audioelement24.currentTime<=0){
+        audioelement24.play();
+    }
+    else{
+        audioelement24.pause();
+    }
+})
